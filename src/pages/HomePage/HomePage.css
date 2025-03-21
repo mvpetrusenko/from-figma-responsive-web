@@ -1,21 +1,28 @@
+/* @media only screen and (max-width: 640px)  {} */
+
+/* 412×915 */ 
+
+
+
 .orangeLine {
     float: right; 
-    width: 56%;
+    width: 56%; 
+    
 } 
 
 .tourist {
     width: 60%; 
     float: right; 
     position: absolute; 
-    margin: 100px 10px 10px 335px;
+    margin: -195px 10px 10px 125px;
 } 
 
 
 
 .desc {
     position: absolute; 
-    width: 315px; 
-    margin: 160px 10px 10px 100px;
+    width: 150px; 
+    margin: -185px 10px 10px 10px;
 }
 
 
@@ -30,7 +37,6 @@
 
 .heading {
     font-family: 'Volkhov-Bold', 'Arial', 'sans-serif'; 
-    line-height: 89px; 
     color: #181e4b;
 } 
 
@@ -39,8 +45,62 @@
 
 .description {
     font-family: 'Poppins-Medium', 'Arial', 'sans-serif'; 
-    line-height: 30px;
 }
 
 
 
+
+.buttonFindOut {
+    border-radius: 10px; 
+    padding: 10px; 
+    background-color: orange; 
+    color: white; 
+    margin: 90px 10px 10px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 768px)   {} */
+
+
+
+
+
+
+/* @media only screen and (max-width: 1920px)   {} */
+
+
+
+/* Desktop: 1920×1080, 1366×768, 1536×864, 1280×720
+Mobile: 640×480, 360×800, 390×844, 393×873, 412×915
+Tablet: 768×1024, 1280×800, 800×1280, 820×118 */
