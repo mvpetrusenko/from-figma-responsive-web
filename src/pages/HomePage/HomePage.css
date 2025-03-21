@@ -1,0 +1,46 @@
+.orangeLine {
+    float: right; 
+    width: 56%;
+} 
+
+.tourist {
+    width: 60%; 
+    float: right; 
+    position: absolute; 
+    margin: 100px 10px 10px 335px;
+} 
+
+
+
+.desc {
+    position: absolute; 
+    width: 315px; 
+    margin: 160px 10px 10px 100px;
+}
+
+
+
+
+.tagline {
+    font-family: 'Poppins-Bold', 'Arial', 'sans-serif'; 
+    color: #df6951;
+} 
+
+
+
+.heading {
+    font-family: 'Volkhov-Bold', 'Arial', 'sans-serif'; 
+    line-height: 89px; 
+    color: #181e4b;
+} 
+
+
+
+
+.description {
+    font-family: 'Poppins-Medium', 'Arial', 'sans-serif'; 
+    line-height: 30px;
+}
+
+
+
