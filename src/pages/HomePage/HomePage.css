@@ -22,7 +22,7 @@
 
 
 .desc {
-    width: 150px; 
+    width: 155px; 
     margin: -235px 10px 10px 10px;
 }
 
@@ -30,22 +30,29 @@
 
 
 .tagline {
-    font-family: 'Poppins-Bold', 'Arial', 'sans-serif'; 
-    color: #df6951;
+    font-family: 'Poppins-Bold', Arial, sans-serif; 
+    color: #df6951; 
+    font-size: 15px; 
+    word-wrap: break-word; /* to adjust width size in mobile first */
 } 
 
 
 
 .heading {
-    font-family: 'Volkhov-Bold', 'Arial', 'sans-serif'; 
-    color: #181e4b;
+    font-family: 'Volkhov-Bold', Arial, sans-serif; 
+    color: #181e4b; 
+    font-size: 20px; 
+    word-wrap: break-word;
+
 } 
 
 
 
 
 .description {
-    font-family: 'Poppins-Medium', 'Arial', 'sans-serif'; 
+    font-family: 'Poppins-Medium', Arial, sans-serif; 
+    font-size: 10px; 
+    word-wrap: break-word;
 }
 
 

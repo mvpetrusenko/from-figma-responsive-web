@@ -1,8 +1,19 @@
 @font-face {
     font-family: 'Poppins-Bold';
-    font-weight: 20;
-    font-style: bold;
-    src: url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    src: url('../../assets/fonts/Poppins-Bold.woff2') format('woff2'),
+         url('../../assets/fonts/Poppins-Bold.woff') format('woff');
+} 
+
+
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../../assets/fonts/Poppins-Medium.woff2') format('woff2'),
+         url('../../assets/fonts/Poppins-Medium.woff') format('woff');
 } 
 
 
@@ -11,16 +22,12 @@
     font-family: 'Volkhov-Bold';
     font-weight: 700;
     font-style: normal;
-    src: url('../fonts/Volkhov-Bold.woff') format('woff');
+    src: url('../../assets/fonts/Volkhov-Bold.woff2') format('woff2'),
+         url('../../assets/fonts/Volkhov-Bold.woff') format('woff');
 }
 
 
-@font-face {
-    font-family: 'Poppins-Medium';
-    font-weight: 16;
-    font-style: medium;
-    src: url('../fonts/Poppins-Medium.woff') format('woff');
-} 
+
 
 
 
