@@ -5,24 +5,25 @@
 
 
 .orangeLine {
-    float: right; 
+    /* float: right; - with space in the top */ 
+    position: absolute; 
+    top: 0; /* to the top without space */
+    right: 0; 
+    z-index: -1; /* behind other content */
     width: 56%; 
     
 } 
 
 .tourist {
-    width: 60%; 
-    float: right; 
-    position: absolute; 
-    margin: -195px 10px 10px 125px;
+    width: 60%;  
+    margin: 4px 10px 10px 130px;
 } 
 
 
 
 .desc {
-    position: absolute; 
     width: 150px; 
-    margin: -185px 10px 10px 10px;
+    margin: -235px 10px 10px 10px;
 }
 
 
@@ -55,7 +56,7 @@
     padding: 10px; 
     background-color: orange; 
     color: white; 
-    margin: 90px 10px 10px 60px;
+    margin: 5px 10px 10px 10px;
 }
 
 

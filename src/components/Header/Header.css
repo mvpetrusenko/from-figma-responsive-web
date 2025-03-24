@@ -1,6 +1,4 @@
 .topnav {
-    position: relative; 
-    top: 35px;
     display: flex; 
     justify-content: space-between;
     margin: 5px 10px 10px 250px;
