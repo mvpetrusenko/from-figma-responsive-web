@@ -177,6 +177,46 @@ h1 {
 
 
 
+.subscribe-section {
+    background-color: #dfd7f9; 
+    font-family: 'Poppins-Medium', Arial, sans-serif; 
+    text-align: center;
+    font-size: 20px;
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 50px 0 0 0; /* rounded only one top left corner */
+}
+
+
+
+.send {
+    width: 50px; 
+    position: absolute;
+    margin: -30px 10px 10px 150px;
+}
+
+
+
+.input-email {
+    width: 270px; 
+    height: 30px; 
+    padding-left: 45px; /* padding for placeholder text */
+    background: url(../../assets/images/mail.png) 10px center no-repeat; /* image in input + padding for image*/ 
+    background-color: white; /* color for input */ 
+    border-radius: 10px;
+}
+
+
+
+.subscribe-button {
+    background-color: rgb(247, 198, 107); 
+    width: 100px; 
+    height: 30px; 
+    border-radius: 5px; 
+    margin-top: 15px; 
+    box-shadow: 2px 5px rgb(147, 147, 147); /* shadow under box */
+}
+
 
 
 
