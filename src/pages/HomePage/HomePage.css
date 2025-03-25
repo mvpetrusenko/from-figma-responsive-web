@@ -102,7 +102,7 @@ h1 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
     border-radius: 20px; 
     padding: 20px; 
-    background-color: rgb(255, 255, 255); /* ro make it in front of under-image (shadows) */
+    background-color: rgb(255, 255, 255); /* to make it in front of under-image (shadows) */
 }
 
 
@@ -143,9 +143,36 @@ h1 {
 
 
 
+.destinations { 
+    overflow-x: hidden;
+}
 
 
 
+
+.destination-cards {
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: -35px;
+
+}
+
+
+
+.destination-item {
+    max-width: 100%; 
+    margin-bottom: -80px;
+}
+
+
+
+.spring {
+    width: 60px; 
+    height: 300px; 
+    margin: -450px 10px 10px 360px; 
+    z-index: -1;
+}
 
 
 
