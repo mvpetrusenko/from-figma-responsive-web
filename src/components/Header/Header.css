@@ -1,5 +1,45 @@
+/* 412×915 */ 
+
 .topnav {
     display: flex; 
     justify-content: space-between;
     margin: 5px 10px 10px 250px;
 }
+
+
+.links-desktop {
+    display: none;
+}
+
+
+
+
+/* 1920×1080 */
+@media only screen and (min-width: 1280px) and (max-width: 1920px)   {
+    .topnav {
+        margin: 50px 50px 80px 400px;
+    } 
+
+    /* only for desktop:  */
+    .links-desktop {
+        display: block; 
+        font-weight: normal;
+    }
+
+
+
+
+    .topnav a {
+        font-size: 35px;
+    } 
+
+    .signup {
+        font-size: 30px;
+    }
+
+    .dropdown {
+        font-size: 35px;
+    }
+
+}
+

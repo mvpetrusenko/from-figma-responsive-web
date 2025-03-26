@@ -14,6 +14,8 @@
     
 } 
 
+
+
 .tourist {
     width: 60%;  
     margin: 4px 10px 10px 130px;
@@ -219,52 +221,6 @@ h1 {
 
 
 
-.footer-navigation {
-    font-weight: bold; 
-    text-align: center;
-    font-size: 20px; 
-    color: rgb(5, 5, 205);
-}
-
-
-
-.navigation-block-item {
-    margin: 30px;
-}
-
-
-
-.navigation-block-item a {
-    display: flex; 
-    margin-top: 5px;
-    
-}
-
-
-
-
-.navigation-links-block a {
-    text-decoration: none; 
-    color: black; 
-    font-weight: normal;
-}
-
-
-
-
-a {
-    text-decoration: none; 
-    color: black; 
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -280,8 +236,160 @@ a {
 
 
 
+/* 1920×1080 */
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+    .orangeLine {
+        width: 40%;
+    } 
 
-/* @media only screen and (max-width: 1920px)   {} */
+    .tourist {
+        width: 40%;  
+        margin: -23px 10px 10px 1010px;
+    } 
+
+    .desc {
+        width: 50%;
+        margin: -635px 10px 10px 10px; 
+        padding-left: 120px;
+    }
+
+
+    .tagline {
+        font-size: 30px; 
+    } 
+    
+    
+    
+    .heading {
+        font-size: 50px; 
+    } 
+    
+    
+    
+    
+    .description {
+        font-size: 20px; 
+
+    } 
+
+    .buttonFindOut {
+        margin: 40px 10px 10px 130px; 
+        padding: 20px 70px; 
+        font-size: 30px;
+    }
+
+    
+    h1 {
+        font-size: 50px; 
+        margin-top: 300px; 
+        margin-bottom: 100px;
+    } 
+
+    
+    .card-item {
+        height: 300px; 
+        margin: 30px; 
+        width: 350px; 
+        text-align: center;
+    }
+
+
+    .card-item img {
+        object-fit: none; 
+        margin: 10px; 
+        width: 100%; 
+    }
+    
+    
+    
+    .under-image img{
+        margin: 270px 10px 10px 500px;
+        width: 150px; 
+
+    }
+    
+    
+    
+    .card-item p {
+        font-size: 30px;
+    }
+    
+    
+    
+    .card-item span {
+        font-size: 25px;
+    }
+    
+
+
+    .destination-cards {
+        margin-left: 300px;
+    }
+
+
+
+    .destination-item {
+        width: 25%;
+    } 
+
+
+    .spring {
+        height: 300px; 
+        width: 100px; 
+        margin-top: 100px; 
+        margin-left: -45px;
+    }
+
+
+    .subscribe-section { 
+        width: 80%; 
+        margin-left: 100px;
+        font-size: 40px; 
+        padding: 80px; 
+        border-radius: 170px 0 0 0;
+    }
+
+
+    .send {
+        width: 100px; 
+        margin: -120px 10px 10px 780px;
+    }
+
+
+    .input-email {
+        width: 600px; 
+        height: 80px; 
+        border-radius: 20px; 
+        font-size: 30px; 
+        background: url(../../assets/images/mail.png) 20px center no-repeat; 
+        background-size: 30px; /* img size */
+        padding-left: 70px; /* placeholder from img */
+    }
+
+
+
+    .subscribe-button {
+        width: 200px; 
+        height: 80px; 
+        border-radius: 15px; 
+        font-size: 30px;
+    }
+
+
+    .footer-navigation { 
+        display: flex;
+        margin: 80px 160px; 
+        font-size: 40px; 
+    } 
+
+
+    .navigation-footer {
+        display: flex; 
+        flex-direction: row;
+    } 
+
+
+}
 
 
 
